@@ -12,8 +12,8 @@ function withSendingStatisticsByClick(WrappedComponent) {
             alert('Данные отправлен на сервер.')
             isSent.value = true
           }
-        }
-      })
+        },
+      });
     }
   }
 }

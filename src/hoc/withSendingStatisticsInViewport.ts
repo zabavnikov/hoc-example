@@ -17,7 +17,7 @@ function withSendingStatisticsInViewport(WrappedComponent) {
       })
 
       return () => h(WrappedComponent, {
-        ref: target
+        ref: target,
       })
     }
   }

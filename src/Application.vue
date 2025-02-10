@@ -20,6 +20,12 @@
             <span class="block text-sm text-neutral-500">Если элемент во вьюпорте + по клику</span>
           </RouterLink>
         </li>
+        <li>
+          <RouterLink to="/highlight-text">
+            <span>Подсветка текста</span>
+            <span class="block text-sm text-neutral-500">Подсветка текст при поиске</span>
+          </RouterLink>
+        </li>
       </ul>
     </div>
     <div class="col-span-8">
